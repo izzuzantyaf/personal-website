@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         <title>Izzu Zantya Fawwas</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Izzu's personal website" />
       </Head>
 
       <main className="sm:w-10/12 h-screen flex flex-col gap-8 items-center justify-center m-auto px-4">
