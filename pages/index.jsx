@@ -8,7 +8,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="sm:w-10/12 h-screen flex flex-col gap-8 items-center justify-center m-auto px-4 ">
+      <main className="sm:w-10/12 h-screen flex flex-col gap-8 items-center justify-center m-auto px-4">
 
         <h1 className="transition duration-500 ease-in-out py-5 px-10 rounded-lg hover:bg-blue-200 hover:shadow-lg font-black text-4xl md:text-6xl text-center">
           Hi there, <span className="text-blue-700">I'm Izzu</span>
