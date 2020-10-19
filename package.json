@@ -14,9 +14,7 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "^10.0.1",
-    "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.9.4"
   }
 }
