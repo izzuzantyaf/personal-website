@@ -4,3 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 /* purgecss end ignore */
+
+body{
+  color:#4A5568;
+}
