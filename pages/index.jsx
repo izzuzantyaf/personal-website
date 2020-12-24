@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import Hero from '../components/home/hero'
+import Projects from '../components/home/projects'
+import Certificates from '../components/home/certificates'
+import Footer from '../components/footer/footer'
 
 export default function Home() {
 
@@ -10,7 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Izzu's personal website" />
       </Head>
+
       <Hero />
+      <Projects />
+      <Certificates />
+      <Footer />
 
     </div>
   )
