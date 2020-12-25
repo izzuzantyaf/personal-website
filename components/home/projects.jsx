@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 export default function Projects() {
   return (
     <div className="my-projects bg-gray-300 p-8">
