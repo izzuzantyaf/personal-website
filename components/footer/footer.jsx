@@ -9,7 +9,7 @@ export default function Footer() {
     </a>
 
     return (
-      <div className="social-media md:justify-self-end flex justify-center gap-4">
+      <div className="social-media md:justify-self-end flex flex-wrap justify-center gap-4">
         {
           socialMedia.map((socmed, index) =>
             <SocialMediaBtn socmed={socmed} key={index} />
