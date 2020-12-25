@@ -1,5 +1,12 @@
 export default [
   {
+    name: 'Email',
+    icon: 'envelope',
+    link: 'mailto:izzuzantyaf@gmail.com',
+    bgHover: 'bg-red-600',
+    colorHover: 'text-white'
+  },
+  {
     name: 'Github',
     icon: ['fab', 'github'],
     link: 'https://github.com/izzuzantyaf',
