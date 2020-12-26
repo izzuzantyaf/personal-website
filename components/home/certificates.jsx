@@ -16,7 +16,7 @@ export default function Certificates() {
       </div>
 
     return (
-      <div className="certfificate-list mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+      <div className="certfificate-list mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {
           certificates.map((certificate, index) => <CertificateCard certificateData={certificate} key={index} />)
         }
