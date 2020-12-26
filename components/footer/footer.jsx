@@ -1,12 +1,16 @@
 import socialMedia from '../../constants/social-media'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Footer() {
 
   const SocialMediaList = () => {
 
-    const SocialMediaBtn = (props) => <a href={props.socmed.link} target="_blank" rel="noopener noreferrer" className={`px-2 py-1 rounded-md transition duration-500 ease-in-out bg-gray-800 font-semibold transform hover:${props.socmed.bgHover} text-gray-500 hover:${props.socmed.colorHover} hover:-translate-y-1 hover:scale-110`}>
-      {props.socmed.name}
-    </a>
+    const SocialMediaBtn = (props) =>
+      <a href={props.socmed.link} target="_blank" rel="noopener noreferrer" className={`p-2 rounded-md transition duration-500 ease-in-out bg-gray-800 font-semibold transform hover:${props.socmed.bgHover} text-gray-500 hover:${props.socmed.colorHover} hover:-translate-y-1 hover:scale-110`}>
+        <div className="socmed-icon flex content-center">
+          <FontAwesomeIcon style={{ width: '25px' }} icon={props.socmed.icon} />
+        </div>
+      </a>
 
     return (
       <div className="social-media md:justify-self-end flex flex-wrap justify-center gap-4">
