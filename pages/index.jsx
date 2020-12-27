@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Hero from '../components/home/hero'
 import Projects from '../components/home/projects'
+import LearningFootprints from '../components/home/learning-footsteps'
 import Certificates from '../components/home/certificates'
 import Footer from '../components/footer/footer'
 
@@ -16,6 +17,7 @@ export default function Home() {
 
       <Hero />
       <Projects />
+      <LearningFootprints />
       <Certificates />
       <Footer />
 
