@@ -14,6 +14,16 @@ export default [
     ],
   },
   {
+    title: 'Learn Python',
+    desc: 'my ongoing Python language learning documentation.',
+    actionList: [
+      {
+        buttonName: 'Github',
+        link: 'https://github.com/izzuzantyaf/learn-python',
+      },
+    ],
+  },
+  {
     title: 'Library Books Management App',
     desc: 'a simple CLI based app written using OOP C++ language for doing CRUD (Create, Read, Update, and Delete) of books data.',
     actionList: [
