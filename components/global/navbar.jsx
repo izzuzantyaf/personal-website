@@ -13,11 +13,11 @@ const DarkModeSlider = () => {
     if (!isDarkMode || window.matchMedia('(prefers-color-scheme: light)').matches) {
       localStorage.theme = 'dark'
       setisDarkMode(true)
-      document.querySelector('html').classList.add('dark')
+      document.querySelector('body').classList.add('dark')
     } else {
       localStorage.theme = 'light'
       setisDarkMode(false)
-      document.querySelector('html').classList.remove('dark')
+      document.querySelector('body').classList.remove('dark')
     }
   }
 
@@ -25,12 +25,12 @@ const DarkModeSlider = () => {
     if (localStorage.theme === undefined) localStorage.theme = 'light'
     if (localStorage.theme === 'dark') {
       setisDarkMode(true)
-      document.querySelector('html').classList.add('dark')
+      document.querySelector('body').classList.add('dark')
     }
 
   }, [isDarkMode])
 
-  return <div onClick={switchTheme} className={`dark-mode-slider flex rounded-full ${isDarkMode ? 'bg-gray-800 flex-row-reverse' : 'bg-white'} w-24 p-1 items-center gap-2 cursor-pointer`}>
+  return <div onClick={controlMode} className={`dark-mode-slider flex rounded-full ${isDarkMode ? 'bg-gray-800 flex-row-reverse' : 'bg-white'} w-24 p-1 items-center gap-2 cursor-pointer`}>
     <div className={`button w-8 h-8 ${isDarkMode ? 'bg-gray-500 flex-row-reverse' : 'bg-gray-300'} rounded-full`}></div>
     <div className={`status capitalize ${isDarkMode ? 'text-white' : ''}`}>{isDarkMode ? 'Dark' : 'Light'}
     </div>
