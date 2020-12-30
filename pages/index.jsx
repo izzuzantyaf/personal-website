@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from '../components/global/navbar'
 import Hero from '../components/home/hero'
 import Projects from '../components/home/projects'
 import LearningFootprints from '../components/home/learning-footsteps'
@@ -15,6 +16,7 @@ export default function Home() {
         <meta name="description" content="Izzu's personal website" />
       </Head>
 
+      <Navbar />
       <Hero />
       <Projects />
       <LearningFootprints />
