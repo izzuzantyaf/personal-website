@@ -5,7 +5,7 @@ export default function Certificates() {
   const CertificateList = () => {
 
     const CertificateCard = (props) =>
-      <div className="certificate-card p-4 bg-white dark:bg-gray-900 dark:text-gray-300 shadow-lg rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+      <div className="certificate-card p-4 bg-gray-50 dark:bg-gray-800 dark:text-gray-300 shadow-lg rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
 
         <img src={`/images/certificates/${props.certificateData.imageFileName}`} alt="Tel-U physics lab web project" className="rounded-xl" />
 
@@ -26,7 +26,7 @@ export default function Certificates() {
   }
 
   return (
-    <div className="certificates bg-gray-300 p-8 dark:bg-gray-800">
+    <div className="certificates px-8 py-16 dark:bg-gray-900">
       <div className="container mx-auto">
         <h3 className="title text-center text-4xl sm:text-5xl font-black dark:text-gray-300">Cerftificates</h3>
         <CertificateList />
