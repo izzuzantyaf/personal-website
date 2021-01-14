@@ -1,5 +1,19 @@
 export default [
   {
+    title: 'Halo Indonesia',
+    desc: 'an android news app written in Kotlin language with MVVM architecture for my semester final assessment.',
+    actionList: [
+      {
+        buttonName: 'Github',
+        link: 'https://github.com/izzuzantyaf/halo-indonesia',
+      },
+      {
+        buttonName: 'Try me',
+        link: 'https://drive.google.com/open?id=1qsYTNWRwCU68LS6xoeIkHDOSKLw6BEtc',
+      },
+    ],
+  },
+  {
     title: 'Android Note App',
     desc: 'an android note taking app written in Kotlin language and using SQLite for storing the data.',
     actionList: [
