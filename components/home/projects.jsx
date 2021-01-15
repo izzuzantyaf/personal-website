@@ -7,7 +7,7 @@ export default function Projects() {
 
         <div className="project-list mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
 
-          <div className="project-card md:col-span-2 lg:col-start-2 lg:col-span-2 p-4 bg-gray-50 dark:bg-gray-800 dark:text-gray-300 shadow-lg rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+          <div className="project-card md:col-span-2 lg:col-start-2 lg:col-span-2 p-4 bg-gray-100 dark:bg-gray-800 dark:text-gray-300 shadow-lg rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
             <img src="/images/projects/labfisdas.png" alt="Tel-U physics lab web project" className="rounded-xl" />
             <div className="project-card-footer flex flex-col gap-4 mt-4">
               <h3 className="project-title font-bold text-xl md:text-2xl">Tel-U Physics Laboratory Website</h3>
