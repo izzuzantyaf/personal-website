@@ -3,35 +3,30 @@ export default [
     name: 'Email',
     icon: 'envelope',
     link: 'mailto:izzuzantyaf@gmail.com',
-    bgHover: 'bg-red-600',
-    colorHover: 'text-white'
+    colorHover: 'text-red-600',
   },
   {
     name: 'Github',
     icon: ['fab', 'github'],
     link: 'https://github.com/izzuzantyaf',
-    bgHover: 'bg-gray-600',
-    colorHover: 'text-white'
+    colorHover: 'text-gray-600',
   },
   {
     name: 'Linkedin',
     icon: ['fab', 'linkedin'],
     link: 'https://linkedin.com/in/izzuzantyaf',
-    bgHover: 'bg-blue-600',
-    colorHover: 'text-white'
+    colorHover: 'text-blue-600',
   },
   {
     name: 'Instagram',
     icon: ['fab', 'instagram'],
     link: 'https://instagram.com/izzuzantyaf',
-    bgHover: 'bg-pink-600',
-    colorHover: 'text-white'
+    colorHover: 'text-pink-600',
   },
   {
     name: 'Twitter',
     icon: ['fab', 'twitter'],
     link: 'https://twitter.com/izzuzantyaf',
-    bgHover: 'bg-blue-400',
-    colorHover: 'text-white'
+    colorHover: 'text-blue-400',
   },
 ]
