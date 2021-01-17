@@ -9,12 +9,18 @@ const DarkModeSlider = () => {
 
   const [isDarkMode, setisDarkMode] = useState(false)
 
+  // dark mode control function
   function controlMode() {
-    if (!isDarkMode || window.matchMedia('(prefers-color-scheme: light)').matches) {
+    // if current theme is light
+    if (!isDarkMode) {
+      // change to dark theme
       localStorage.theme = 'dark'
       setisDarkMode(true)
       document.querySelector('body').classList.add('dark')
-    } else {
+    }
+    // if current theme is dark
+    else {
+      // change to light theme
       localStorage.theme = 'light'
       setisDarkMode(false)
       document.querySelector('body').classList.remove('dark')
@@ -22,7 +28,9 @@ const DarkModeSlider = () => {
   }
 
   useEffect(() => {
+    // initial theme is light
     if (localStorage.theme === undefined) localStorage.theme = 'light'
+    // keep the dark mode if user was using it in last visit
     if (localStorage.theme === 'dark') {
       setisDarkMode(true)
       document.querySelector('body').classList.add('dark')
@@ -30,34 +38,41 @@ const DarkModeSlider = () => {
 
   }, [isDarkMode])
 
-  return <div onClick={controlMode} className={`dark-mode-slider flex rounded-full ${isDarkMode ? 'bg-gray-800 flex-row-reverse' : 'bg-white'} w-24 p-1 items-center gap-2 cursor-pointer`}>
-    <div className={`button w-8 h-8 ${isDarkMode ? 'bg-gray-500 flex-row-reverse' : 'bg-gray-300'} rounded-full`}></div>
-    <div className={`status capitalize ${isDarkMode ? 'text-white' : ''}`}>{isDarkMode ? 'Dark' : 'Light'}
-    </div>
-  </div>
+  return (
+    <div onClick={controlMode} className={`dark-mode-slider flex rounded-full ${isDarkMode ? 'bg-gray-800 flex-row-reverse' : 'bg-white'} w-24 p-1 items-center gap-2 cursor-pointer`}>
+      <div className={`button w-8 h-8 ${isDarkMode ? 'bg-gray-500 flex-row-reverse' : 'bg-gray-300'} rounded-full`}></div>
+      <div className={`status capitalize ${isDarkMode ? 'text-white' : ''}`}>{isDarkMode ? 'Dark' : 'Light'}
+      </div>
+    </div>)
 }
 
 export default function Navbar() {
 
-  function controllShowHideNavbar() {
+  // function to control show / hide the navbar
+  function controlShowHideNavbar() {
+    // if users are scrolling down
     if (window.scrollY >= curScrollPos) {
+      // show the navbar
       setisScrolledDown(true)
-      setCurScrollPos(window.scrollY)
-    } else {
+      setcurScrollPos(window.scrollY)
+    }
+    // if users are scrolling up
+    else {
+      // hide the navbar
       setisScrolledDown(false)
-      setCurScrollPos(window.scrollY)
+      setcurScrollPos(window.scrollY)
     }
   }
 
   const [isScrolledDown, setisScrolledDown] = useState(false)
-  const [curScrollPos, setCurScrollPos] = useState()
+  const [curScrollPos, setcurScrollPos] = useState()
 
   useEffect(() => {
-    setCurScrollPos(window.scrollY)
-    document.addEventListener('scroll', controllShowHideNavbar)
+    setcurScrollPos(window.scrollY)
+    document.addEventListener('scroll', controlShowHideNavbar)
 
     return () => {
-      document.removeEventListener('scroll', controllShowHideNavbar)
+      document.removeEventListener('scroll', controlShowHideNavbar)
     }
   })
 
