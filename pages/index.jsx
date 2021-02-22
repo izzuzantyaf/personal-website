@@ -9,7 +9,7 @@ import Footer from '../components/footer/footer'
 export default function Home() {
 
   return (
-    <div className="home">
+    <div className="home bg-gray-50">
       <Head>
         <title>Izzu Zantya Fawwas</title>
         <link rel="icon" href="/favicon.ico" />
