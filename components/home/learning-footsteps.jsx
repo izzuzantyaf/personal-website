@@ -34,7 +34,7 @@ export default function LearningFootprints() {
     </div>
 
   return (
-    <div className="learning-footprints px-8 py-16 dark:bg-gray-900">
+    <div className="learning-footprints px-6 py-16 dark:bg-gray-900">
       <div className="container mx-auto">
         <div className="title text-center text-4xl sm:text-5xl font-black  dark:text-gray-300">My learning footprints</div>
         <LearningFootprintList />

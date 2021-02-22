@@ -21,7 +21,7 @@ export default function Certificates() {
     </div>
 
   return (
-    <div className="certificates px-8 py-16 dark:bg-gray-900">
+    <div className="certificates px-6 py-16 dark:bg-gray-900">
       <div className="container mx-auto">
         <h3 className="title text-center text-4xl sm:text-5xl font-black dark:text-gray-300">Cerftificates</h3>
         <CertificateList />

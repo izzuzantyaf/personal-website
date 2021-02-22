@@ -25,7 +25,7 @@ export default function Footer() {
     </div>
 
   return (
-    <footer className="footer p-8 bg-gray-50 dark:bg-gray-900">
+    <footer className="footer py-8 px-6 bg-gray-50 dark:bg-gray-900">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
         <h4 className="font-black text-xl text-center md:text-left">izzuzantyaf.</h4>
         <SocialMediaList />
