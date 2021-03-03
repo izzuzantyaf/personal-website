@@ -1,7 +1,7 @@
 export default [
   {
     name: 'Email',
-    icon: 'envelope',
+    icon: ['fas', 'envelope'],
     link: 'mailto:izzuzantyaf@gmail.com',
     color: 'text-red-600',
   },
