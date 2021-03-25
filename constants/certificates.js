@@ -1,17 +1,24 @@
 export default [
   {
-    name: 'Python Fundamental Programming',
-    issuer: 'Dicoding',
-    issuerURL: 'https://dicoding.com',
-    imageFileName: 'Python Fundamental Programming - Dicoding-min.jpg',
-    credentialLink: 'https://www.dicoding.com/certificates/ERZR50VMOPYV',
-  },
-  {
     name: 'SOLID Principle',
     issuer: 'Dicoding',
     issuerURL: 'https://dicoding.com',
     imageFileName: 'SOLID Principle - Dicoding-min.jpg',
     credentialLink: 'https://www.dicoding.com/certificates/72ZD2QQ3QZYW',
+  },
+  {
+    name: 'Data Visualization',
+    issuer: 'Dicoding',
+    issuerURL: 'https://dicoding.com',
+    imageFileName: 'Data Visualization - Dicoding.jpg',
+    credentialLink: 'https://www.dicoding.com/certificates/GRX5G35LKX0M',
+  },
+  {
+    name: 'Python Fundamental Programming',
+    issuer: 'Dicoding',
+    issuerURL: 'https://dicoding.com',
+    imageFileName: 'Python Fundamental Programming - Dicoding-min.jpg',
+    credentialLink: 'https://www.dicoding.com/certificates/ERZR50VMOPYV',
   },
   {
     name: 'PHP Tutorial Course',
