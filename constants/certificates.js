@@ -1,6 +1,6 @@
 export default [
   {
-    name: 'SOLID Principle',
+    name: 'SOLID Principles',
     issuer: 'Dicoding',
     issuerURL: 'https://dicoding.com',
     imageFileName: 'SOLID Principle - Dicoding-min.jpg',

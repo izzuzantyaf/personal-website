@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Projects() {
   return (
     <div className="my-projects dark:bg-gray-900 px-6 py-16">
@@ -13,7 +15,15 @@ export default function Projects() {
             <a href="https://labfisdas-telu.com" target="_blank" rel="noopener noreferrer" className="visit-me-btn self-center sm:self-start px-8 py-2 rounded-md transition duration-500 ease-in-out border border-blue-500 hover:bg-blue-500 hover:border-none hover:text-white  text-blue-500 font-bold">Visit me</a>
           </div>
           <div className="project-image">
-            <img src="/images/projects/labfisdas.png" alt="Tel-U physics lab web project" className="shadow-xl rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105" />
+            <Image
+              src="/images/projects/labfisdas.png"
+              alt="Tel-U physics lab web project"
+              width={1348}
+              height={764}
+              // layout="intrinsic"
+              className="shadow-xl rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+            />
+            {/* <img src="/images/projects/labfisdas.png" alt="Tel-U physics lab web project" className="shadow-xl rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105" /> */}
           </div>
         </div>
 

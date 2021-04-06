@@ -1,5 +1,6 @@
 import certificates from '../../constants/certificates'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 
 const CertificateCard = (props) => {
   const {
@@ -12,7 +13,16 @@ const CertificateCard = (props) => {
   return (
     <div className="certificate-card flex flex-col gap-4 p-4 bg-white dark:bg-gray-800 dark:text-gray-300 shadow-lg rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
 
-      <img src={`/images/certificates/${imageFileName}`} alt="Tel-U physics lab web project" className="rounded-xl" />
+      <Image
+        src={`/images/certificates/${imageFileName}`}
+        alt="Picture of the cert"
+        width={1754}
+        height={1238}
+        layout="intrinsic"
+        className="rounded-xl"
+      />
+
+      {/* <img src={`/images/certificates/${imageFileName}`} alt="Tel-U physics lab web project" className="rounded-xl" /> */}
 
       <h3 className="certificate-title font-bold text-xl md:text-2xl">{name}</h3>
       <a href={issuerURL} target="_blank" rel="noopener noreferrer" className="certificate-issuer self-start flex-grow md:text-xl">{issuer}</a>
