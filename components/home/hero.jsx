@@ -1,9 +1,9 @@
 const Greeting = () =>
     <div className="greeting">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-center dark:text-gray-300">Hi there, <span className="text-blue-500">I'm Izzu</span>
-        </h1>
+        <div className="text-4xl sm:text-5xl md:text-6xl font-black text-center dark:text-gray-300">Hi there, <span className="text-blue-500">I'm Izzu</span>
+        </div>
 
-        <h3 className="text-center sm:text-2xl font-semibold  dark:text-gray-300">a Digital Craftsman</h3>
+        <div className="text-center sm:text-2xl font-semibold  dark:text-gray-300">a Digital Craftsman</div>
     </div>
 
 export default function Hero() {

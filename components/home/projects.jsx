@@ -5,7 +5,7 @@ export default function Projects() {
     <div className="my-projects dark:bg-gray-900 px-6 py-16">
 
       <div className="container mx-auto">
-        <h3 className="title text-center text-4xl sm:text-5xl font-black text-blue-500">My works</h3>
+        <div className="title text-center text-4xl sm:text-5xl font-black text-blue-500">My works</div>
 
         <div className="project-list mt-8 grid gap-8 grid-cols-1 sm:grid-cols-2 items-center">
           <div className="project-info flex flex-col gap-8 items-center">

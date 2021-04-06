@@ -24,7 +24,7 @@ const CertificateCard = (props) => {
 
       {/* <img src={`/images/certificates/${imageFileName}`} alt="Tel-U physics lab web project" className="rounded-xl" /> */}
 
-      <h3 className="certificate-title font-bold text-xl md:text-2xl">{name}</h3>
+      <div className="certificate-title font-bold text-xl md:text-2xl">{name}</div>
       <a href={issuerURL} target="_blank" rel="noopener noreferrer" className="certificate-issuer self-start flex-grow md:text-xl">{issuer}</a>
       <a href={credentialLink} target="_blank" rel="noopener noreferrer" className="flex gap-4 items-center self-end px-6 py-2 rounded-md transition duration-500 ease-in-out border border-blue-600 hover:bg-blue-100 dark:hover:bg-blue-600 hover:border-opacity-0 text-blue-600 dark:text-blue-600 dark:hover:text-white font-bold">View credential
     <FontAwesomeIcon icon={['fas', 'external-link-alt']} className="w-4" />
@@ -44,7 +44,7 @@ export default function Certificates() {
   return (
     <div className="certificates px-6 py-16 dark:bg-gray-900">
       <div className="container mx-auto">
-        <h3 className="title text-center text-4xl sm:text-5xl font-black dark:text-gray-300">Cerftificates</h3>
+        <div className="title text-center text-4xl sm:text-5xl font-black dark:text-gray-300">Cerftificates</div>
         <CertificateList />
       </div>
     </div>
