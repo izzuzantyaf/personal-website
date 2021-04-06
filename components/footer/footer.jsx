@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SocialMediaBtn = (props) => {
 
-  const { link, color, icon } = props.data
+  const { name, link, color, icon } = props.data
 
   return (
     <a href={link} target="_blank" rel="noopener noreferrer" className={`p-2 rounded-md transition duration-500 ease-in-out font-semibold transform hover:${color} hover:-translate-y-1 hover:scale-110`}>
-      <div className="socmed-icon flex content-center">
+      <div className="socmed-icon flex content-center gap-2">
         <FontAwesomeIcon style={{ width: '25px' }} icon={icon} />
+        {name}
       </div>
     </a>)
 }
