@@ -9,7 +9,7 @@ module.exports = {
       './components/**/*.{js,ts,jsx,tsx}'
     ],
     options: {
-      safelist: [
+      whitelist: [
         'text-red-600',
         'text-gray-600',
         'text-blue-600',
