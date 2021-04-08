@@ -34,18 +34,15 @@ const CertificateCard = (props) => {
 
 export default function Certificates() {
 
-  const CertificateList = () =>
-    <div className="certfificate-list mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-      {
-        certificates.map((certificate, index) => <CertificateCard certificateData={certificate} key={index} />)
-      }
-    </div>
-
   return (
     <div className="certificates px-6 py-16 dark:bg-gray-900">
       <div className="container mx-auto">
         <div className="title text-center text-4xl sm:text-5xl font-black dark:text-gray-300">Cerftificates</div>
-        <CertificateList />
+        <div className="certfificate-list mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+          {
+            certificates.map((certificate, index) => <CertificateCard certificateData={certificate} key={index} />)
+          }
+        </div>
       </div>
     </div>
   )

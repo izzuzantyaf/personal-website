@@ -16,20 +16,15 @@ const SocialMediaBtn = (props) => {
 
 export default function Footer() {
 
-  const SocialMediaList = () =>
-    <div className="social-media md:justify-self-end flex flex-wrap justify-center gap-4">
-      {
-        socialMedia.map((socmed, index) =>
-          <SocialMediaBtn data={socmed} key={index} />
-        )
-      }
-    </div>
-
   return (
     <footer className="footer py-8 px-6 bg-gray-50 dark:bg-gray-900">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
         <h4 className="font-black text-xl text-center md:text-left">izzuzantyaf.</h4>
-        <SocialMediaList />
+        <div className="social-media md:justify-self-end flex flex-wrap justify-center gap-4">
+          {socialMedia.map((socmed, index) =>
+            <SocialMediaBtn data={socmed} key={index} />
+          )}
+        </div>
       </div>
     </footer>
   )
