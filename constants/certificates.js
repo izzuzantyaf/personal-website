@@ -1,10 +1,21 @@
 export default [
   {
+    name: 'Javascript Algorithms and Data Structures',
+    issuer: 'Freecodecamp',
+    issuerURL: 'https://freecodecamp.org',
+    imageFileName: 'Javascript Algorithms and Data Structures.png',
+    credentialLink: 'https://www.freecodecamp.org/certification/izzuzantyaf/javascript-algorithms-and-data-structures',
+    height: 731,
+    width: 915,
+  },
+  {
     name: 'SOLID Principles',
     issuer: 'Dicoding',
     issuerURL: 'https://dicoding.com',
     imageFileName: 'SOLID Principle - Dicoding-min.jpg',
     credentialLink: 'https://www.dicoding.com/certificates/72ZD2QQ3QZYW',
+    height: 1238,
+    width: 1754,
   },
   {
     name: 'Data Visualization',
@@ -12,6 +23,8 @@ export default [
     issuerURL: 'https://dicoding.com',
     imageFileName: 'Data Visualization - Dicoding.jpg',
     credentialLink: 'https://www.dicoding.com/certificates/GRX5G35LKX0M',
+    height: 1238,
+    width: 1754,
   },
   {
     name: 'Python Fundamental Programming',
@@ -19,6 +32,8 @@ export default [
     issuerURL: 'https://dicoding.com',
     imageFileName: 'Python Fundamental Programming - Dicoding-min.jpg',
     credentialLink: 'https://www.dicoding.com/certificates/ERZR50VMOPYV',
+    height: 1238,
+    width: 1754,
   },
   {
     name: 'PHP Tutorial Course',
@@ -26,6 +41,8 @@ export default [
     issuerURL: 'https://sololearn.com',
     imageFileName: 'PHP Tutorial Course-min.jpg',
     credentialLink: 'https://www.sololearn.com/Certificate/1059-6168276/pdf/',
+    height: 1238,
+    width: 1754,
   },
   {
     name: 'CSS Fundamental Course',
@@ -33,6 +50,8 @@ export default [
     issuerURL: 'https://sololearn.com',
     imageFileName: 'CSS Fundamental Course-min.jpg',
     credentialLink: 'https://www.sololearn.com/Certificate/1023-6168276/pdf/',
+    height: 1238,
+    width: 1754,
   },
   {
     name: 'HTML Fundamental Course',
@@ -40,10 +59,7 @@ export default [
     issuerURL: 'https://sololearn.com',
     imageFileName: 'HTML Fundamental Course-min.jpg',
     credentialLink: 'https://www.sololearn.com/Certificate/1014-6168276/pdf/',
+    height: 1238,
+    width: 1754,
   },
-  // {
-  //   name: 'jQuery Tutorial Course',
-  //   imageFileName: 'jQuery Tutorial Course-min.jpg',
-  //   credentialLink: 'https://www.sololearn.com/Certificate/1082-6168276/pdf/',
-  // },
 ]

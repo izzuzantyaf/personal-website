@@ -8,7 +8,9 @@ const CertificateCard = (props) => {
     name,
     issuerURL,
     issuer,
-    credentialLink, } = props.certificateData
+    credentialLink,
+    width,
+    height, } = props.certificateData
 
   return (
     <div className="certificate-card flex flex-col gap-4 p-4 bg-white dark:bg-gray-800 dark:text-gray-300 shadow-lg rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
@@ -16,8 +18,8 @@ const CertificateCard = (props) => {
       <Image
         src={`/images/certificates/${imageFileName}`}
         alt="Picture of the cert"
-        width={1754}
-        height={1238}
+        width={width}
+        height={height}
         layout="intrinsic"
         className="rounded-xl"
       />
