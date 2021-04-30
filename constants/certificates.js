@@ -1,12 +1,21 @@
 export default [
   {
-    name: 'Javascript Algorithms and Data Structures',
+    name: 'JavaScript Algorithms and Data Structures',
     issuer: 'Freecodecamp',
     issuerURL: 'https://freecodecamp.org',
     imageFileName: 'Javascript Algorithms and Data Structures.png',
     credentialLink: 'https://www.freecodecamp.org/certification/izzuzantyaf/javascript-algorithms-and-data-structures',
     height: 731,
     width: 915,
+  },
+  {
+    name: 'JavaScript Fundamental',
+    issuer: 'Dicoding',
+    issuerURL: 'https://dicoding.com',
+    imageFileName: 'JavaScript Fundamental - Dicoding.jpg',
+    credentialLink: 'https://www.dicoding.com/certificates/0LZ0DE2L3X65',
+    height: 1238,
+    width: 1754,
   },
   {
     name: 'SOLID Principles',

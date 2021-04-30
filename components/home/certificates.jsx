@@ -17,7 +17,7 @@ const CertificateCard = (props) => {
 
       <Image
         src={`/images/certificates/${imageFileName}`}
-        alt="Picture of the cert"
+        alt={name}
         width={width}
         height={height}
         layout="intrinsic"
