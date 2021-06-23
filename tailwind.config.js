@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const { socialMedias } = require('./constants/social-media')
 
 module.exports = {
   darkMode: 'class',
@@ -9,12 +10,8 @@ module.exports = {
       './components/**/*.{js,ts,jsx,tsx}'
     ],
     options: {
-      whitelist: [
-        'text-red-600',
-        'text-gray-600',
-        'text-blue-600',
-        'text-pink-600',
-        'text-blue-400',
+      safelist: [
+        ...socialMedias.map(socmed => socmed.hoverColor),
       ],
       keyframes: true,
       fontFace: true,
