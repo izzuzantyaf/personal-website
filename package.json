@@ -1,5 +1,5 @@
 {
-  "name": "personal-website",
+  "name": "izzuzantyaf-space",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,10 +19,8 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
-    "@fullhuman/postcss-purgecss": "^3.0.0",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.9",
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^2.1.1"
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.2"
   }
 }
