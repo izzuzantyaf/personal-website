@@ -11,7 +11,6 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- Hotjar Tracking Code for https://izzuzantyaf.space -->
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
