@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react'
 
 const Brand = () =>
   <div className="brand font-black text-3xl dark:text-gray-500">
-    IZZ.
+    <a href="/">
+      IZZ.
+    </a>
   </div>
 
 const DarkModeSlider = () => {
@@ -77,7 +79,7 @@ export default function Navbar() {
   })
 
   return (
-    <div className={`navbar bg-gray-50 dark:bg-gray-900 fixed left-0 right-0 z-10  min-h-0 py-4 px-8 transition duration-500 ease-in-out transform ${isScrolledDown ? '-translate-y-20' : ''}`}>
+    <div className={`navbar bg-gray-50 dark:bg-gray-900 fixed left-0 right-0 z-10  min-h-0 py-4 px-6 transition duration-500 ease-in-out transform ${isScrolledDown ? '-translate-y-20' : ''}`}>
       <div className="container mx-auto flex items-center justify-between">
         <Brand />
         <DarkModeSlider />
