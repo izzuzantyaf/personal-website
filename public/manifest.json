@@ -1,8 +1,8 @@
 {
   "name": "izzuzantyaf.space",
   "short_name": "IZZ",
-  "theme_color": "#F8FAFC",
-  "background_color": "#F8FAFC",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
   "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
