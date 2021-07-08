@@ -13,7 +13,6 @@ export default function Home() {
       <Head>
         <title>Izzu Zantya Fawwas</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Izzu's personal website" />
       </Head>
 
       <Navbar />
